@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cz.tul.drone.processing</OriginalElement>
+  <nodes>
+    <node x="-64.0" y="306.25">cz.tul.drone.processing.Scene</node>
+    <node x="-573.5" y="276.75">cz.tul.drone.processing.AllowedEntityEnum</node>
+    <node x="-81.5" y="541.75">cz.tul.drone.processing.DBFactory</node>
+    <node x="191.75" y="535.25">cz.tul.drone.processing.DMRDownloader</node>
+    <node x="520.5" y="237.5">cz.tul.drone.processing.DroneDirectionEnum</node>
+    <node x="-378.25" y="251.75">cz.tul.drone.processing.Entity</node>
+    <node x="194.5" y="241.25">cz.tul.drone.processing.Tile</node>
+    <node x="-392.5" y="542.25">cz.tul.drone.processing.EntityDownloader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cz.tul.drone.processing.Scene" target="cz.tul.drone.processing.Tile">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cz.tul.drone.processing.EntityDownloader" target="cz.tul.drone.processing.Entity">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cz.tul.drone.processing.DMRDownloader" target="cz.tul.drone.processing.Tile">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cz.tul.drone.processing.EntityDownloader" target="cz.tul.drone.processing.DBFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cz.tul.drone.processing.Scene" target="cz.tul.drone.processing.Entity">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cz.tul.drone.processing.DMRDownloader" target="cz.tul.drone.processing.DBFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="164.625" y="425.25" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

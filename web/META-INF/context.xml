@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/kozanekDrony"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="drony"
+              password="ToJsouTyNa3eDrony"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://drone.fm.tul.cz:4443/kozanek"
+              maxIdle="3"
+              validationQuery="select 1 as dbcp_connection_test"
+              testOnBorrow="true"
+    />
+</Context>
